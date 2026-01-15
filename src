@@ -1,0 +1,31 @@
+package sample;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class TicTacToe extends JFrame implements ActionListener {
+
+    JButton[] buttons = new JButton[9];
+    boolean playerX;
+    int moves;
+    GameLogic logic;
+
+    public TicTacToe() {
+        // UI setup (frame, layout, buttons)
+        // Button initialization
+        // Event listener attachment
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // Handle button click
+        // Switch players
+        // Call game logic
+    }
+
+    private void resetGame() {
+        // Clear board
+        // Reset variables
+    }
+}

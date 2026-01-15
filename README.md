@@ -2,11 +2,20 @@
 
 A simple two-player Tic Tac Toe gameThis project is a basic implementation of the classic Tic Tac Toe game using Java Swing. 
 
-It allows two players to play alternately by clicking on a 3×3 grid. The program checks for winning conditions across rows, columns, and diagonals, detects draw situations, and resets the game automatically after completion.
+# Tic Tac Toe – Java Swing
 
-This project is a basic implementation of the classic Tic Tac Toe game using Java Swing. It allows two players to play alternately by clicking on a 3×3 grid.
+This project demonstrates a GUI-based Tic Tac Toe game using Java Swing,
+focusing on clean architecture and separation of concerns.
 
-The program checks for winning conditions across rows, columns, and diagonals, detects draw situations, and resets the game automatically after completion.
+## Project Structure
+- `TicTacToe.java` – UI layer (skeleton)
+- `GameLogic.java` – Game rules and winner detection
+- `Main.java` – Application entry point
 
-The project is built without drag-and-drop tools and focuses on strengthening fundamental Java concepts such as arrays, event handling, and control flow.
+## Concepts Used
+- Java Swing
+- Event Handling
+- Object-Oriented Design
+- Modular Programming
+
 
